@@ -98,14 +98,22 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
-   body {
+ body {
     background-color: #2e3141;
-    background-image: url("../bilder/1.jpg");
+    background-image: url("../images/banner.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
+    color: white;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
 }
+
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
