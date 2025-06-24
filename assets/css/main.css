@@ -97,15 +97,11 @@ input, select, textarea {
 	*, *:before, *:after {
 		box-sizing: inherit;
 	}
-
-	body {
-    background-color: #2e3141;
-    background-image: url("../../images/banner.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
+	
+   body {
+    border: 10px solid red;
 }
+
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
